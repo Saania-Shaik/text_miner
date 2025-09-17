@@ -9,7 +9,7 @@ def score(chunk_data,index):
     return out
 
 if __name__ == "__main__":
-    with open("randomparas.txt", "r", encoding="utf-8") as f:
+    with open("TGP eBook of The palace of fantasy.txt", "r") as f:
         huge_text = f.read()
 
         chunks = huge_text.split("\n") # splitting the huge text to paragraphs
