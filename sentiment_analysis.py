@@ -5,7 +5,7 @@ from utils.neutral import neutral_words
 import sqlite3
 from pymongo import MongoClient
 
-client = MongoClient("mongodb+srv://saaniashaik:Atlas%40123@cluster0.gr3pnpm.mongodb.net/myDatabase?retryWrites=true&w=majority&appName=Cluster0")
+client = MongoClient("mongodb_credentials")
 database = client.get_database("textminer")
 sentences_collection = database.get_collection("sentences")
 words_collection = database.get_collection("words")
